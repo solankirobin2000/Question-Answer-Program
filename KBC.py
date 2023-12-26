@@ -66,7 +66,7 @@ Money = 0
 for i in range(0,len(Questions)):
     Question = Questions[i]
     print(f"\n\n Question for Rs. {Level[i]}")
-    print(f"Question {i+1} : {Question[i]}")
+    print(f"Question {i+1} : {Question[0]}")
     print(f"A . {Question[1]}                B . {Question[2]}" )
     print(f"C . {Question[3]}                D . {Question[4]}")
     
